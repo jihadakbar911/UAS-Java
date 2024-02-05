@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="schoolmanagement.dashboardController">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="190.0" styleClass="navbar" stylesheets="@dashboardDesign.css">
+         <children>
+            <Circle fill="#404040" layoutX="90.0" layoutY="87.0" radius="54.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label layoutX="50.0" layoutY="158.0" text="Welcome!" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="user" alignment="CENTER" layoutX="23.0" layoutY="213.0" prefHeight="31.0" prefWidth="135.0" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="26.0" />
+               </font>
+            </Label>
+            <Button fx:id="home" layoutX="7.0" layoutY="292.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="176.0" styleClass="navbutton" stylesheets="@dashboardDesign.css" text="Home" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIcon fill="WHITE" glyphName="HOME" size="1.2em" />
+               </graphic>
+            </Button>
+            <Button fx:id="student" layoutX="7.0" layoutY="335.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="176.0" styleClass="navbutton" stylesheets="@dashboardDesign.css" text="Student" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIcon fill="WHITE" glyphName="USER" />
+               </graphic>
+            </Button>
+            <Button fx:id="record" layoutX="7.0" layoutY="378.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="176.0" styleClass="navbutton" stylesheets="@dashboardDesign.css" text="Student Record" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIcon fill="WHITE" glyphName="CLIPBOARD" />
+               </graphic>
+            </Button>
+            <Button fx:id="data" layoutX="7.0" layoutY="421.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="176.0" styleClass="navbutton" stylesheets="@dashboardDesign.css" text="Data Analysis" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIcon fill="WHITE" glyphName="LINE_CHART" />
+               </graphic>
+            </Button>
+            <Button fx:id="edit" layoutX="50.0" layoutY="49.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="81.0" styleClass="editButton" stylesheets="@dashboardDesign.css">
+               <graphic>
+                  <FontAwesomeIcon fill="WHITE" glyphName="EDIT" size="1.4em" text="" />
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="180.0" prefHeight="30.0" prefWidth="820.0">
+         <children>
+            <Button layoutX="755.0" layoutY="2.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="65.0" styleClass="exit" stylesheets="@dashboardDesign.css">
+               <graphic>
+                  <FontAwesomeIcon fill="WHITE" glyphName="CLOSE" />
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="190.0" layoutY="59.0" prefHeight="537.0" prefWidth="810.0">
+         <children>
+            <AnchorPane prefHeight="150.0" prefWidth="810.0" styleClass="card-top" stylesheets="@dashboardDesign.css" visible="false" />
+            <AnchorPane prefHeight="150.0" prefWidth="810.0" styleClass="card-top" stylesheets="@dashboardDesign.css">
+               <children>
+                  <Label layoutX="237.0" layoutY="39.0" prefHeight="60.0" prefWidth="480.0" text="Jessy University" textFill="WHITE">
+                     <font>
+                        <Font name="Bookman Old Style" size="50.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

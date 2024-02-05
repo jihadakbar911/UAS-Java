@@ -1,0 +1,48 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 5, 2024, 9:29:59 PM
+    Author     : OJeSs
+*/
+
+.navbar{
+    
+    -fx-background-color:linear-gradient(to bottom right, #2f466b, #662d60);
+}
+
+.card-top{
+    
+    -fx-background-color:linear-gradient(to bottom right, #2f466b, #662d60);
+}
+
+.exit{
+    -fx-background-color: #f20a0a;
+    -fx-background-radius: 200px;
+    -fx-cursor: hand;
+}
+
+.exit:hover{
+    -fx-background-color: #ff5050;
+}
+
+.navbutton{
+    
+    -fx-background-color:linear-gradient(to bottom right, rgba(121, 172, 255, 0.3), rgba(255, 106, 239, 0.3));
+    -fx-cursor:hand;
+    -fx-alignment:CENTER_LEFT;
+}
+
+.navbutton:hover{
+    
+    -fx-background-color:linear-gradient(to bottom right, rgba(121, 172, 255, 0.7), rgba(255, 106, 239, 0.7));
+}
+
+
+.editButton{
+    
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+    -fx-padding:50px 0px 0px 0px;
+}
